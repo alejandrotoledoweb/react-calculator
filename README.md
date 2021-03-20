@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Heroku link to app
 
-Heroku [live demo link](https://git.heroku.com/react--calculator.git)
+Heroku [live demo link](https://react--calculator.herokuapp.com/)
 
 ## Available Scripts
 
