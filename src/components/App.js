@@ -1,23 +1,23 @@
-import './App.css';
+import React from 'react';
+import Display from './display';
+import Button from './button';
+import ButtonPanel from './buttonPanel';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          This is the first look of my react app.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/alejandrotoledoweb/react-calculator"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          More to see in my github account
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { calculation: 0 };
+  }
+  render() {
+    const calculation = this.state
+    return(
+      <section>
+        <div>
+
+        </div>
+      </section>
+    )
+  }
+
 }
-
-export default App;
