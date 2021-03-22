@@ -5,7 +5,12 @@ const Button = props => {
   const { name } = props;
   return (
     <>
-      <button type="button" className="btn">{ name }</button>
+      <button
+        type="button"
+        className="btn"
+      >
+        { name }
+      </button>
     </>
   );
 };
