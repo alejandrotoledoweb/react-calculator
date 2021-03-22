@@ -15,10 +15,12 @@ export default class App extends React.Component {
     const { calculation } = this.state;
 
     return (
-      <section className="app">
-        <Display result={calculation} />
-        <ButtonPanel />
-      </section>
+      <>
+        <section className="app">
+          <Display result={calculation} />
+          <ButtonPanel />
+        </section>
+      </>
     );
   }
 }
