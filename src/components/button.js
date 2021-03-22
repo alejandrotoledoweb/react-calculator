@@ -11,7 +11,7 @@ export default class Button extends React.Component {
   }
 
   render() {
-    const { name } = this.name;
+    const name  = this.propType.name;
     return (
       <div
         className="btn"
