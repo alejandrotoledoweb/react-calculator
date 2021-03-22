@@ -2,22 +2,23 @@ import React from 'react';
 import Display from './display';
 import ButtonPanel from './buttonPanel';
 
-class App extends React.Component {
+export default class App extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { calculation: 0 };
+    this.state = {
+      calculation: 0,
+    };
   }
 
   render() {
     const { calculation } = this.state;
+
     return (
-      <div className="app">
+      <section className="app">
         <Display result={calculation} />
         <ButtonPanel />
-      </div>
+      </section>
     );
   }
 }
-
-export default App;
