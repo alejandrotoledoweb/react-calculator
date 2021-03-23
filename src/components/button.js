@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import '../index.css';
 
-const Button = props => {
+const Button = (props) => {
   const { name } = props;
   return (
     <>
