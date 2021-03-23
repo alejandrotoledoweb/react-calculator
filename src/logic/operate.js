@@ -7,12 +7,12 @@ const operate = (numberOne, numberTwo, operation) => {
   const two = Big(numberTwo);
 
   if (operation === '+') {
-    total = one.plus(two);
+    total = one.plus(two).toString();
     result = { total: null, next: total, operation };
   }
 
   if (operation === '-') {
-    total = one.minus(two);
+    total = one.minus(two).toString();
     result = { total: null, next: total, operation };
   }
 
@@ -20,18 +20,18 @@ const operate = (numberOne, numberTwo, operation) => {
     if (two === '0') {
       result = { total: 'Math Error', next: null, operation };
     } else {
-      total = one.div(two);
+      total = one.div(two).toString();
       result = { total: null, next: total, operation };
     }
   }
 
   if (operation === 'X') {
-    total = one.times(two);
+    total = one.times(two).toString();
     result = { total: null, next: total, operation };
   }
 
   if (operation === '%') {
-    total = one.mod(two);
+    total = one.mod(two).toString();
     result = { total: null, next: total, operation };
   }
 
