@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import '../index.css';
 
-const Display = props => {
+const Display = (props) => {
   const { result } = props;
   return (
     <>
