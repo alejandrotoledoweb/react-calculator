@@ -1,15 +1,13 @@
 .app {
-  margin: 4rem 5rem 3rem 5rem;
+  margin: 1rem 5rem 1rem 5rem;
   padding: 3rem 3rem 3rem 3rem;
   display: flex;
   justify-content: center;
-  border: 1px solid red;
   flex-direction: column;
   align-items: center;
 }
 
 .btn {
-  background-color: rgb(198, 239, 255);
   border: 1px solid lightgray;
   font-family: Roboto, sans-serif;
   margin: 0.2rem 0.2rem;
@@ -34,5 +32,9 @@
   display: flex;
   width: 15rem;
   justify-content: space-around;
+}
 
+.desc {
+  font-family: Robot, Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
