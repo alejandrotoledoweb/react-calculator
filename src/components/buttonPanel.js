@@ -14,8 +14,8 @@ const ButtonPanel = ({ clickHandler }) => {
 
   return (
     <>
-      {group.map(elem => (
-        <div key={elem.toString()} className="btn">
+      {group.map((elem) => (
+        <div key={elem.toString()} className="btn-panel">
           {elem.map((btn, index) => (
             <Button key={btn} name={btn} num={index} clickHandler={handleClick} />
           ))}
