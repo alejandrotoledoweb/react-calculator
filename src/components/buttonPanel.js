@@ -1,5 +1,6 @@
 /* eslint-disable arrow-parens */
 import React from 'react';
+import PropTypes from 'prop-types';
 import Button from './button';
 
 import '../index.css';
@@ -14,7 +15,7 @@ const ButtonPanel = ({ clickHandler }) => {
   return (
     <>
       {group.map(elem => (
-        <div key={elem.toString()} className="btnCont">
+        <div key={elem.toString()} className="btn">
           {elem.map((btn, index) => (
             <Button key={btn} name={btn} num={index} clickHandler={handleClick} />
           ))}

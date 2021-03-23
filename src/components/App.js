@@ -7,32 +7,30 @@ import calculate from '../logic/calculate';
 
 import '../index.css';
 
-export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-    const [calculation, setCalculation] = useState({
-      total: null,
-      next: null,
-      operation: null,
-    });
-  }
+const App = () => {
+  const [calculation, setCalculation] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-  render() {
-    const handleClick = (buttonName) => {
-      const result = calculate(calculation, buttonName);
-      setCalculation({ ...result });
-    };
-    const result = calculation;
+  const handleClick = buttonName => {
+    const result = calculate(calculation, buttonName);
+    setCalculation({ ...result });
+  };
 
-    return (
-      <>
-        <div className="app-1">
-          <div className="app">
-            <Display result={result} />
-            <ButtonPanel clickHandler={handleClick} />
-          </div>
+  const result = calculation;
+
+  return (
+    <>
+      <div className="app-1">
+        <div className="app">
+          <Display result={result} />
+          <ButtonPanel clickHandler={handleClick} />
         </div>
-      </>
-    );
-  }
+      </div>
+    </>
+  );
 };
+
+export default App;

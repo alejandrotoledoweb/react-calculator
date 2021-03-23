@@ -1,11 +1,8 @@
-/* eslint-disable arrow-parens */
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import '../index.css';
-
 const Button = ({ name, clickHandler, num }) => {
-  const handleClick = (buttonName) => {
+  const handleClick = buttonName => {
     clickHandler(buttonName);
   };
 
