@@ -1,10 +1,50 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React - Calculator
 
-## Heroku link to app
+This project is part of the React chapter in the Microverse Program.
+In this project we develop the knowledge to use Components, Props, DefaultProps and States.
 
-Heroku [live demo link](https://react--calculator.herokuapp.com/)
+![screenshot](./calculator-screenshot.png)
+
+I use yarn files and assets.
+
+## Built With
+
+- JavaScript
+- React 
+
+### Linters Used
+
+- Eslint
+- Stylelint
+
+
+
+## Live Demo - Try the game here
+
+[Live Demo Link](https://react--calculator.herokuapp.com/)
+
+
+## Getting Started
+
+To get a local copy up and follow these simple example steps.
+
+### Prerequisites
+
+- Local Machine installed [Nodejs](https://nodejs.org/en/download/)
+- Yarn as a package manager
+- A code editor as [Visual Studio](https://code.visualstudio.com/download), Sublime,etc.
+
+### Setup
+
+- Please make a local copy of this repo by typing this command on your terminal.
+
+`git clone https://github.com/alejandrotoledoweb/react-calculator.git`
+
+- Then, go to the folder created with:
+
+`cd react-calculator`
 
 ## Available Scripts
 
@@ -43,32 +83,29 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤  **Alejandro Toledo**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@alejandrotoledoweb](https://github.com/alejandrotoledoweb)
+- Twitter: [@alejot](https://twitter.com/alejot)
+- LinkedIn: [Alejandro Toledo](https://www.linkedin.com/in/alejandro-toledo-3b444b109/)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](https://github.com/alejandrotoledoweb/react-calculator/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- Thank you to Microverse, who challenged me to build this app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](lic.url) licensed.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
