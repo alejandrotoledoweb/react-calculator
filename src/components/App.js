@@ -1,3 +1,4 @@
+/* eslint-disable arrow-parens */
 import React, { useState } from 'react';
 import Display from './display';
 import ButtonPanel from './buttonPanel';
@@ -9,7 +10,7 @@ import '../index.css';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    const { calculation, setCalculation } = useState({
+    const [calculation, setCalculation] = useState({
       total: null,
       next: null,
       operation: null,

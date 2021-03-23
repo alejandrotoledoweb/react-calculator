@@ -4,20 +4,28 @@ import Button from './button';
 
 import '../index.css';
 
-const ButtonPanel = () => {
-  const group = [['AC', '+/-', '%', '÷'], [7, 8, 9, 'X'], [4, 5, 6, '-'], [1, 2, 3, '+'], [0, '.', '=']];
+const ButtonPanel = ({ clickHandler }) => {
+  const handleClick = (buttonName) => {
+    clickHandler(buttonName);
+  };
+
+  const group = [['AC', '±', '%', '÷'], ['7', '8', '9', '×'], ['4', '5', '6', '−'], ['1', '2', '3', '+'], ['0', '.', '=']];
 
   return (
     <>
-      {group.map((elem) => (
-        <div className="btn" key={elem.id}>
-          {elem.map((btn) => (
-            <Button key={btn.id} name={btn} />
+      {group.map(elem => (
+        <div key={elem.toString()} className="btnCont">
+          {elem.map((btn, index) => (
+            <Button key={btn} name={btn} num={index} clickHandler={handleClick} />
           ))}
         </div>
       ))}
     </>
   );
+};
+
+ButtonPanel.propTypes = {
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default ButtonPanel;
