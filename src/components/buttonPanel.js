@@ -8,9 +8,9 @@ const ButtonPanel = () => {
 
   return (
     <>
-      {group.map(elem => (
+      {group.map((elem) => (
         <div className="btn" key={elem.id}>
-          {elem.map(btn => (
+          {elem.map((btn) => (
             <Button key={btn.id} name={btn} />
           ))}
         </div>
