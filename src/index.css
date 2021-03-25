@@ -19,6 +19,7 @@
 
 .display {
   border: 1px solid lightblue;
+
   /* font-family: Robot, sans-serif;
   border-radius: 5%;
   width: 50%;
@@ -38,3 +39,38 @@
   font-family: Robot, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 } */
+
+body {
+  background-color: rgb(253, 218, 179);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 5rem;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 1px solid black;
+  background-color: lightgray;
+}
+
+.title {
+  margin: 0.25rem 3rem;
+}
+
+.links {
+  display: flex;
+  margin: 0.1rem 3rem;
+}
+
+.btn-link {
+  margin: 1rem 1rem;
+  color: lightcoral;
+}
+
+.quote {
+  margin: 5rem;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
