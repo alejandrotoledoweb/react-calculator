@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './button';
 
+import '../styles/buttonPanel.css';
 import '../index.css';
 
 const ButtonPanel = ({ clickHandler }) => {

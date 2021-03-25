@@ -1,0 +1,6 @@
+.btn-panel {
+  display: flex;
+  height: 100px;
+  width: 700px;
+  justify-content: space-around;
+}
