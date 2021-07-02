@@ -2,6 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import '../styles/display.css';
 import '../index.css';
 
 const Display = ({ result }) => {
@@ -22,7 +23,7 @@ const Display = ({ result }) => {
     ${operation == null ? '' : operation}
     ${nextD}`;
   return (
-    <div className="display">{display}</div>
+    <div className="display"><strong>{display}</strong></div>
   );
 };
 

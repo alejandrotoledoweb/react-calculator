@@ -1,6 +1,6 @@
 .app {
-  margin: 1rem 5rem 1rem 5rem;
-  padding: 3rem 3rem 3rem 3rem;
+  margin: 0.5rem 6rem 0.01rem 25rem;
+  padding: 0.5rem 3rem 0.1rem 3rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -13,22 +13,23 @@
   margin: 0.2rem 0.2rem;
   padding: 1.5rem 2.5rem;
   font-size: 1.8rem;
-  width: 30%;
+  width: 20%;
   text-align: center;
 }
 
 .display {
   border: 1px solid lightblue;
-  font-family: Robot, sans-serif;
+
+  /* font-family: Robot, sans-serif;
   border-radius: 5%;
   width: 50%;
   font-size: 2rem;
   text-align: end;
   padding: 1rem 0.45rem 1rem 0.75rem;
-  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem; */
 }
 
-.btn-panel {
+/* .btn-panel {
   display: flex;
   width: 15rem;
   justify-content: space-around;
@@ -37,4 +38,39 @@
 .desc {
   font-family: Robot, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+} */
+
+body {
+  background-color: rgb(253, 218, 179);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 5rem;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: 1px solid black;
+  background-color: lightgray;
+}
+
+.title {
+  margin: 0.25rem 3rem;
+}
+
+.links {
+  display: flex;
+  margin: 0.1rem 3rem;
+}
+
+.btn-link {
+  margin: 1rem 1rem;
+  color: lightcoral;
+}
+
+.quote {
+  margin: 5rem;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }

@@ -57,6 +57,11 @@ You will also see any lint errors in the console.
 
 ### `yarn test`
 
+Before running `yarn test` be sure to run `npm i` to install all dependencies required for tests.
+
+After running `yarn test` you must select one of the options given by Jest.
+**_For example type `a` to run all tests._**
+
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 

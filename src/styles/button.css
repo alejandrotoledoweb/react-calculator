@@ -1,0 +1,12 @@
+.btn {
+  display: flex;
+  width: 40%;
+  font-size: 2rem;
+  margin: -0.1rem -1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn3 {
+  background-color: rgb(247, 186, 118);
+}
