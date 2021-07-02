@@ -5,26 +5,23 @@
 This project is part of the React chapter in the Microverse Program.
 In this project we develop the knowledge to use Components, Props, DefaultProps and States.
 
-![screenshot](./calculator-screenshot.png)
+![screenshot](./calculator-screenshot-2.png)
 
 I use yarn files and assets.
 
 ## Built With
 
 - JavaScript
-- React 
+- React
 
 ### Linters Used
 
 - Eslint
 - Stylelint
 
-
-
 ## Live Demo - Try the game here
 
 [Live Demo Link](https://react--calculator.herokuapp.com/)
-
 
 ## Getting Started
 
@@ -63,7 +60,7 @@ You will also see any lint errors in the console.
 Before running `yarn test` be sure to run `npm i` to install all dependencies required for tests.
 
 After running `yarn test` you must select one of the options given by Jest.
-***For example type `a` to run all tests.***
+**_For example type `a` to run all tests._**
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -90,7 +87,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Authors
 
-👤  **Alejandro Toledo**
+👤 **Alejandro Toledo**
 
 - GitHub: [@alejandrotoledoweb](https://github.com/alejandrotoledoweb)
 - Twitter: [@alejot](https://twitter.com/alejot)
