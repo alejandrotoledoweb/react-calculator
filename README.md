@@ -5,26 +5,23 @@
 This project is part of the React chapter in the Microverse Program.
 In this project we develop the knowledge to use Components, Props, DefaultProps and States.
 
-![screenshot](./calculator-screenshot.png)
+![screenshot](./calculator-screenshot-2.png)
 
 I use yarn files and assets.
 
 ## Built With
 
 - JavaScript
-- React 
+- React
 
 ### Linters Used
 
 - Eslint
 - Stylelint
 
-
-
 ## Live Demo - Try the game here
 
 [Live Demo Link](https://react--calculator.herokuapp.com/)
-
 
 ## Getting Started
 
@@ -85,7 +82,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Authors
 
-👤  **Alejandro Toledo**
+👤 **Alejandro Toledo**
 
 - GitHub: [@alejandrotoledoweb](https://github.com/alejandrotoledoweb)
 - Twitter: [@alejot](https://twitter.com/alejot)
